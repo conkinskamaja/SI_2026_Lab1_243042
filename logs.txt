@@ -1,0 +1,16 @@
+*   704740b Conflict resolved
+|\  
+| *   0c5d02e Resolve conflict between master and feature-borrow-book
+| |\  
+| * | 82bb161 Implement borrow book
+* | |   e43d106 Merge branch 'feature-genre-report'
+|\ \ \  
+| |_|/  
+|/| |   
+| * | c483d7d Implement genre report
+| |/  
+* / c9c0013 Update borrow message on master
+|/  
+* 5974641 Implement book search
+* b7e3a51 Add starter code
+* 07f00bd Initial commit

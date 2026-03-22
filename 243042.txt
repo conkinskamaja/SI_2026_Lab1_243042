@@ -1,0 +1,30 @@
+Одговори на прашања за првата лабораториска вежба, Софтверско инженерство
+
+
+9. git checkout -b feature-search-books
+
+10. Имплементирани методи и потоа git commit -m "Implement book search."
+
+11.git push origin feature-search-books 
+
+12. git checkout master и git merge feature-search-books – fast-forward merge; 
+излез од git log --oneline --graph --all: 
+* 5974641 (HEAD -> master, origin/feature-search-books, feature-search-books) Implement book search * b7e3a51 (origin/master) Add starter code * 07f00bd Initial commit. 
+
+15. git checkout -b feature-borrow-book, git checkout master, git checkout -b feature-genre-report
+
+16. Имплементација на borrowBook метод во feature-borrow-book и тест во main, потоа git add SI2026Lab1Main.java и git commit -m "Implement borrow book". 
+
+17. Префрлување на master, промена на порака во borrowBook метод: git commit -am "Update borrow message on master". 
+
+18. Имплементација на printGenreBooks метод во feature-genre-report, потоа git add SI2026Lab1Main.java и git commit -m "Implement genre report". 
+git push origin feature-borrow-book и git push origin feature-genre-report – креирање Pull Requests. 
+
+21. git checkout feature-borrow-book и git merge master – конфликт во SI2026Lab1Main.java; решено да остане "Borrowed successfully", 
+потоа git add SI2026Lab1Main.java и git commit -m "Resolve conflict: keep Borrowed successfully". git status после merge: On branch feature-borrow-book nothing to commit, working tree clean. 
+
+23. git checkout master и git merge feature-genre-report – recursive merge, бидејќи master немаше директни промени на овој дел, но постојат промени од други гранки. 
+
+24. git merge feature-borrow-book – recursive merge, бидејќи постои промена на истата порака во master и borrow гранка.
+
+25. git push origin master

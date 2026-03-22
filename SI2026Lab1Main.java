@@ -67,7 +67,7 @@ class Library {
             if (book.getTitle().equalsIgnoreCase(title)) {
                 if (!book.isBorrowed()) {
                     book.setBorrowed(true);
-                    System.out.println("Book checked out.");
+                    System.out.println("Borrowed successfully");
                 } else {
                     System.out.println("Book is already borrowed.");
                 }
@@ -133,6 +133,9 @@ public class SI2026Lab1Main {
 
 	System.out.println("Is 'The Hobbit' in library? " + library.searchBook("The Hobbit"));
 
+
 	library.printGenreBooks("Fantasy");
+
+	library.borrowBook("The Hobbit");
     }
 }
